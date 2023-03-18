@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+}
+
+#container {
+    position: relative;
+    margin: auto;
+    background: url('photo.jpeg') no-repeat;
+    height: 40vh;
+    width: 40vh;
+    background-size: 100%;
+}
+
+#hour,
+#min,
+#sec {
+    position: absolute;
+    border-radius: 10px;
+}
+
+#hour {
+    background: red;
+    height: 20%;
+    width: 2%;
+    top: 30%;
+    right: 50%;
+    transform-origin: bottom;
+}
+
+#min {
+    background: blue;
+    height: 24%;
+    width: 2%;
+    transform-origin: bottom;
+    top: 26%;
+    right: 50%;
+}
+
+#sec {
+    background: black;
+    height: 27%;
+    width: 2%;
+    top: 22%;
+    transform-origin: bottom;
+    right: 50%;
+}
